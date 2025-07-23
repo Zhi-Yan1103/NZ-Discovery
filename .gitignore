@@ -1,1 +1,36 @@
+# Dependency folders
+node_modules/
+out/
+dist/
+build/
+
+# IDE / Editor settings
+.idea/
+.vscode/
+
+# Logs & temp
+*.log
+*.tmp
+
+# Environment variables
+.env
+.env.*
+
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.iml
+target/
+
+# Frontend specific
+.svelte-kit/
+.next/
+.nuxt/
+
+# Backend specific
+coverage/
