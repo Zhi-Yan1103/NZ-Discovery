@@ -36,27 +36,19 @@ A multifunctional blog platform designed to share journeys and stories of explor
 
 ---
 
-## 📁 Project Structure
-NZ-Discovery/
-├── frontend/ # React frontend
-├── backend/ # Node.js backend (Express + SQLite)
-├── java-client/ # Java admin client (Swing)
-├── admin.gif # Admin dashboard animation
-├── nz-discovery.gif # Frontend demo animation
-└── README.md
+## ▶️ How to Run
 
----
+### 💻 Backend + Frontend
 
-### ▶ How to Run
-**Barkend**
+```bash
+# Start Backend
 cd backend
 npm install
 npm start
 # Server runs at: http://localhost:3000/
 
-**Frontend**
-```bash
-cd frontend
+# In a new terminal, start Frontend
+cd ../frontend
 npm install
 npm run dev
 # App runs at: http://localhost:5173/
@@ -69,6 +61,7 @@ npm run dev
 - Run `AdminInterface.java`
 
 > 💡 **Test login credentials:**  
-> **Username**: `admin_john_doe`  
-> **Password**: `randomPass1`
+> - **Username**: `admin_john_doe`  
+> - **Password**: `randomPass1`
+
 
