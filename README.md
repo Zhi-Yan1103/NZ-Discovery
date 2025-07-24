@@ -38,30 +38,24 @@ A multifunctional blog platform designed to share journeys and stories of explor
 
 ## ▶️ How to Run
 
-### 💻 Backend + Frontend
+### 🖥️ Java Admin Client
 
 ```bash
-# Start Backend
+# Start backend
 cd backend
 npm install
 npm start
 # Server runs at: http://localhost:3000/
 
-# In a new terminal, start Frontend
+# Start frontend
 cd ../frontend
 npm install
 npm run dev
 # App runs at: http://localhost:5173/
 
----
-
-### 🖥️ Java Admin Client
-
-- Open `java-client` in IntelliJ or VS Code  
-- Run `AdminInterface.java`
-
-> 💡 **Test login credentials:**  
-> - **Username**: `admin_john_doe`  
-> - **Password**: `randomPass1`
+# Run Java Admin Client
+cd ../java-client
+javac -cp lib/* src/pccit/finalproject/javaclient/AdminInterface.java
+java -cp "src:lib/*" pccit.finalproject.javaclient.AdminInterface
 
 
