@@ -1,31 +1,60 @@
-# NZ Discovery
+# 🌿 NZ Discovery
 
-A responsive full-stack travel blogging platform that allows users to explore, publish, and interact with travel stories across New Zealand.  
-Built with **Svelte**, **Node.js**, and **SQLite**, this project features user authentication, article creation with image uploads, and real-time interaction via WebSocket.
+A multifunctional blog platform designed to share journeys and stories of exploring New Zealand. It features user registration, login, post creation, comments, likes, and a separate admin dashboard for user management.
 
-## 🌟 Features
-- User login & JWT authentication
-- Publish, edit, and delete travel blog posts
-- Upload and compress images using Multer and Sharp
-- Real-time updates via WebSocket
-- Admin support and responsive design
+## 🎥 Demo Preview
 
-## 🛠️ Tech Stack
-- **Frontend**: Svelte, Vite
-- **Backend**: Express.js
-- **Database**: SQLite
-- **Auth**: JWT, bcrypt
-- **File Upload**: Multer, Sharp
+### User Interface (Frontend Demo)
 
-## 🚀 How to Run
+![NZ Discovery Demo](./nz-discovery.gif)
 
-```bash
-# Backend
-cd backend
-npm install
-npm run dev
+### Admin Dashboard (Java GUI Demo)
 
-# Frontend
+![Admin Dashboard Demo](./admin.gif)
+
+---
+
+## 🖥 Frontend
+
+- React (Vite)
+- React Router
+- JavaScript + JSX
+- CSS
+
+## 🔧 Backend
+
+- Node.js
+- Express
+- SQLite (via `sqlite3`)
+
+## 📦 Java Admin Client
+
+- Java Swing GUI
+- HTTP Client (`java.net.http.HttpClient`)
+- JSON parsing (`Jackson`)
+- Communicates with backend API for login and user management
+
+---
+
+## 📁 Project Structure
+NZ-Discovery/
+├── frontend/ # React frontend
+├── backend/ # Node.js backend (Express + SQLite)
+├── java-client/ # Java admin client (Swing)
+├── admin.gif # Admin demo animation
+├── nz-discovery.gif # Frontend demo animation
+├── README.md
+
+2. Frontend
 cd frontend
 npm install
 npm run dev
+Runs on: http://localhost:5173/
+
+3. Java Admin Client
+Open java-client in IntelliJ or VS Code and run AdminInterface.java.
+
+Test login credentials:
+username: admin_john_doe
+password: randomPass1
+
