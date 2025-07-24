@@ -41,20 +41,27 @@ NZ-Discovery/
 ├── frontend/ # React frontend
 ├── backend/ # Node.js backend (Express + SQLite)
 ├── java-client/ # Java admin client (Swing)
-├── admin.gif # Admin demo animation
+├── admin.gif # Admin dashboard animation
 ├── nz-discovery.gif # Frontend demo animation
-├── README.md
+└── README.md
 
-2. Frontend
+
+### ▶ How to Run
+
+**Frontend**
+```bash
 cd frontend
 npm install
 npm run dev
-Runs on: http://localhost:5173/
+# App runs at: http://localhost:5173/
 
-3. Java Admin Client
-Open java-client in IntelliJ or VS Code and run AdminInterface.java.
 
-Test login credentials:
-username: admin_john_doe
-password: randomPass1
+### 🖥️ Java Admin Client
+
+- Open `java-client` in IntelliJ or VS Code  
+- Run `AdminInterface.java`
+
+> 💡 **Test login credentials:**  
+> **Username**: `admin_john_doe`  
+> **Password**: `randomPass1`
 
