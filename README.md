@@ -45,8 +45,14 @@ NZ-Discovery/
 ├── nz-discovery.gif # Frontend demo animation
 └── README.md
 
+---
 
 ### ▶ How to Run
+**Barkend**
+cd backend
+npm install
+npm start
+# Server runs at: http://localhost:3000/
 
 **Frontend**
 ```bash
@@ -55,6 +61,7 @@ npm install
 npm run dev
 # App runs at: http://localhost:5173/
 
+---
 
 ### 🖥️ Java Admin Client
 
