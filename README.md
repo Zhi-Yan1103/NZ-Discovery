@@ -36,9 +36,9 @@ A multifunctional blog platform designed to share journeys and stories of explor
 
 ---
 
-## ▶️ How to Run
-
 ### 🖥️ Java Admin Client
+
+#### Run All Services
 
 ```bash
 # Start backend
@@ -57,5 +57,6 @@ npm run dev
 cd ../java-client
 javac -cp lib/* src/pccit/finalproject/javaclient/AdminInterface.java
 java -cp "src:lib/*" pccit.finalproject.javaclient.AdminInterface
+
 
 
