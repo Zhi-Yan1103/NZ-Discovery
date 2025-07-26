@@ -16,9 +16,9 @@ A multifunctional blog platform designed to share journeys and stories of explor
 
 ## 🖥 Frontend
 
-- React (Vite)
-- React Router
-- JavaScript + JSX
+- Svelte
+- JavaScript
+- HTML
 - CSS
 
 ## 🔧 Backend
